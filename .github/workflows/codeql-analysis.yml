@@ -12,6 +12,7 @@ on:
       - 'reactfrontend/**'
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
     paths:
       - 'reactfrontend/**'
 
