@@ -2,7 +2,7 @@
 
 > TLDR; This repository is a sample project demonstrating a basic continuous integration (CI) / continuous deployment (CD) setup. This project is in READ ONLY mode.
 
-[![Continuous Deployment Workflow](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/actions/workflows/cd.yaml/badge.svg?branch=main)](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/workflows/cd.yaml)
+[![Continuous Deployment Workflow](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/workflows/cd.yaml/badge.svg?branch=main)](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/workflows/cd.yaml)
 [![Continuous Integration Workflow](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/workflows/ci.yml)
 [![Code scanning](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/Michal-dev-repo/ci-cd-github-actions/actions/workflows/codeql-analysis.yml)
 
