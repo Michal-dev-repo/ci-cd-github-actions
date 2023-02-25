@@ -28,6 +28,12 @@
       "react-app/jest"
     ]
   },
+  "standard": {
+    "globals": [
+      "test",
+      "expect"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
