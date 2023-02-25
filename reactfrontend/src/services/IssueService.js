@@ -24,5 +24,4 @@ class IssueService {
   }
 }
 
-
 export default new IssueService()
