@@ -9,12 +9,12 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'reactfrontend/**'
+      - 'react-frontend/**'
   pull_request:
     branches: [ main ]
   workflow_dispatch:
     paths:
-      - 'reactfrontend/**'
+      - 'react-frontend/**'
 
 jobs:
   analyze:

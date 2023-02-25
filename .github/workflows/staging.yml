@@ -195,7 +195,7 @@ jobs:
       name: 'Deploy to staging'
       with:
         switches: -avzr --delete
-        path: ./web
+        path: ./react-frontend
         remote_path: /var/app
         remote_host: ${{ steps.apply_output.outputs.stdout }}
         remote_user: ${{ secrets.REMOTE_USER }}

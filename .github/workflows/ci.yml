@@ -6,13 +6,13 @@ on:
     branches:
       - main
     paths:
-      - 'reactfrontend/**'
+      - 'react-frontend/**'
   push:
     branches:
       - main
   workflow_dispatch:
     paths:
-      - 'reactfrontend/**'
+      - 'react-frontend/**'
 
 jobs:
 
@@ -23,7 +23,7 @@ jobs:
       run:
         shell: bash
         # Define the working directory for all run steps in the workflow
-        working-directory: ./reactfrontend
+        working-directory: ./react-frontend
     # Specify the OS we want the workflow to run on
     runs-on: ubuntu-latest
     # Define the steps for this job
@@ -44,7 +44,7 @@ jobs:
       run:
         shell: bash
         # Define the working directory for all run steps in the workflow
-        working-directory: ./reactfrontend
+        working-directory: ./react-frontend
     runs-on: ubuntu-latest
     steps:    
     - uses: actions/checkout@v3
