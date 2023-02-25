@@ -6,7 +6,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'web/**'
+      - 'reactfrontend/**'
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ defaults:
   run:
     shell: bash
     # Define the working directory for all run steps in the workflow
-    working-directory: ./web
+    working-directory: ./reactfrontend
 
 jobs:
 

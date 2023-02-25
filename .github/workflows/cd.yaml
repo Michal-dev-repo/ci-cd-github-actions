@@ -6,14 +6,14 @@ on:
     branches:
       - 'main'
     paths:
-      - 'web/**'
+      - 'reactfrontend/**'
   workflow_dispatch:
 
 defaults:
   run:
     shell: bash
     # Define the working directory for all run steps in the workflow
-    working-directory: ./web
+    working-directory: ./reactfrontend
 
 jobs:
 
@@ -37,7 +37,7 @@ jobs:
         name: 'Deploy to staging'
         with:
           switches: -avzr --delete
-          path: ./web
+          path: ./reactfrontend
           remote_path: /var/app
           remote_host: ${{ secrets.HOSTNAME }}
           remote_user: ${{ secrets.REMOTE_USER }}
@@ -80,7 +80,7 @@ jobs:
       name: 'Deploy to production'
       with:
         switches: -avzr --delete
-        path: ./web
+        path: ./reactfrontend
         remote_path: /var/app
         remote_host: ${{ secrets.HOSTNAME }}
         remote_user: ${{ secrets.REMOTE_USER }}
